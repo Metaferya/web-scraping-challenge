@@ -1,17 +1,28 @@
 # Mars News and Weather Data Analysis
+
 ## Overview
-This repository contains two main deliverables that focus on web scraping and data analysis of Mars-related news and weather data. The projects use Python, Splinter, BeautifulSoup, Pandas, and Matplotlib to achieve the tasks.
+
+This repository contains two main deliverables that focus on web scraping and data analysis of Mars-related news and weather data. The projects use Python, Splinter, BeautifulSoup, Pandas, and Matplotlib to 
+achieve the tasks.
 
 ## Deliverable 1: Scrape Titles and Preview Text from Mars News
+
 ## Objective
+
 + Scrape the titles and preview text of news articles from the Mars news site.
 
 ### Steps
+
 1-Import Libraries: Import Splinter and BeautifulSoup.
+
 from splinter import Browser
+
 from bs4 import BeautifulSoup
+
 2-Initialize the Browser: Use Splinter to initialize the browser.
+
 browser = Browser('chrome')
+
 3-Visit the Mars News Site: Navigate to the Mars news site.
 url = 'https://static.bc-edx.com/data/web/mars_news/index.html'
 browser.visit(url)
