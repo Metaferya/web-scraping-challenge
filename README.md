@@ -16,7 +16,6 @@ achieve the tasks.
 1-Import Libraries: Import Splinter and BeautifulSoup.
 
 from splinter import Browser
-
 from bs4 import BeautifulSoup
 
 2-Initialize the Browser: Use Splinter to initialize the browser.
