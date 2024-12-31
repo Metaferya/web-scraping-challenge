@@ -13,8 +13,9 @@ achieve the tasks.
 
 ### Steps
 
-1-Import Libraries: Import Splinter and BeautifulSoup.
+1-Import Libraries:
 
+Import Splinter and BeautifulSoup.
 from splinter import Browser
 from bs4 import BeautifulSoup
 
